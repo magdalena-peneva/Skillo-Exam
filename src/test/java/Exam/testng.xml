@@ -1,0 +1,22 @@
+<suite name="Functional Tests" parallel="methods" thread-count="2" >
+    <test name="Header Tests" group-by-instances="true">
+        <classes>
+            <class name="Exam.Pages.Header"></class>
+        </classes>
+    </test>
+    <test name="Homepage Tests" group-by-instances="true">
+    <classes>
+        <class name="Exam.Pages.Homepage"></class>
+    </classes>
+    </test>
+    <test name="Login  Tests" group-by-instances="true">
+        <classes>
+            <class name="Exam.Pages.LoginPage"></class>
+        </classes>
+    </test>
+    <test name="Profile Tests" group-by-instances="true">
+        <classes>
+            <class name="Exam.Pages.ProfilePage"></class>
+        </classes>
+    </test>
+</suite>
